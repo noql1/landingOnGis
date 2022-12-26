@@ -11454,6 +11454,10 @@ html {
     font-size: 2.75rem;
     line-height: 2.5rem;
   }
+  .logo-text{
+    font-size: 5rem;
+    line-height: 2.5rem;
+  }
   .masthead .masthead-subheading {
     font-size: 1.5rem;
   }
