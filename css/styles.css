@@ -11511,3 +11511,11 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+.start-page{
+  background-image: url("/assets/ZZZZZ2581.jpg");
+  opacity: 0.5;
+  width: 500px;
+  height: 100%;
+}
+
+
