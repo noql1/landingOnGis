@@ -52,3 +52,12 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+function SendMail() {
+    var params = {
+        from_name: document.getElementById('name').value,
+        from_email: document.getElementById('email').value,
+        message: document.getElementById('message').value,
+        phone: document.getElementById('phone').value,
+    }
+    emailjs.send('service_1up0ofv', 'template_h0k8bxg', params);
+}

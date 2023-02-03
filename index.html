@@ -16,6 +16,14 @@
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <script type="text/javascript"
+                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+          (function(){
+            emailjs.init("UAeqqefVvzYxuX-yX");
+          })();
+        </script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -419,7 +427,7 @@
                 <!-- Contact Section Heading-->
                 <p class="page-section-heading text-center text-uppercase text-secondary mb-0">Оставить заявку</p>
                 <!-- Icon Divider-->
-                <div class="divider-custom">g
+                <div class="divider-custom">
                 </div>
                 <!-- Contact Section Form-->
                 <div class="row justify-content-center">
@@ -466,7 +474,7 @@
                             <!-- an error submitting the form-->
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Ошибка при отправке сообщения!</div></div>
                             <!-- Submit Button-->
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Отправить</button>
+                            <button class="btn btn-primary btn-xl disabled align-self-center" id="submitButton" type="submit" onclick="SendMail()">Отправить</button>
                         </form>
                     </div>
                 </div>
